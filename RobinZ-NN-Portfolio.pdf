@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<!-- saved from url=(0202)file:///home/sun/Downloads/DESIGN_PORTFOLIO-%2DHTML_CSS_BOOTSTRAP-master%20(1)/DESIGN_PORTFOLIO-%2DHTML_CSS_BOOTSTRAP-master/Project_3_-_protfolio/Project%203%20-%20protfolio/Protfolio_NN-project_3.html -->
+<html lang="zh"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+            
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, intial-scale=1"> <!--使用 viewport 来控制浏览器视口的宽度和缩放比例。
+                添加 width=device-width 以便让视口的宽度与设备一致。
+                添加 initial-scale=1 以便让页面的默认缩放比例与PC端一致。
+                确保在不停用用户缩放功能的情况下，我的网页也可以访问。-->
+            <title>RobinZ-NN-Portfolio</title>
+            <link href="./RobinZ-NN-Portfolio_files/css" rel="stylesheet">
+            <link rel="stylesheet" href="file:///home/sun/Downloads/DESIGN_PORTFOLIO--HTML_CSS_BOOTSTRAP-master%20(1)/DESIGN_PORTFOLIO--HTML_CSS_BOOTSTRAP-master/Project_3_-_protfolio/Project%203%20-%20protfolio/css/bootstrap.css">
+            <link rel="stylesheet" href="file:///home/sun/Downloads/DESIGN_PORTFOLIO--HTML_CSS_BOOTSTRAP-master%20(1)/DESIGN_PORTFOLIO--HTML_CSS_BOOTSTRAP-master/Project_3_-_protfolio/Project%203%20-%20protfolio/css/styles.css">
+            <script type="text/javascript" src="file:///home/sun/Downloads/DESIGN_PORTFOLIO--HTML_CSS_BOOTSTRAP-master%20(1)/DESIGN_PORTFOLIO--HTML_CSS_BOOTSTRAP-master/Project_3_-_protfolio/Project%203%20-%20protfolio/js/jquery-3.4.1.min.js"></script>
+            <script type="text/javascript" src="file:///home/sun/Downloads/DESIGN_PORTFOLIO--HTML_CSS_BOOTSTRAP-master%20(1)/DESIGN_PORTFOLIO--HTML_CSS_BOOTSTRAP-master/Project_3_-_protfolio/Project%203%20-%20protfolio/js/bootstrap.min.js"></script>
+
+        </head>
+
+
+
+            <body><article class="container">
+
+                <header class="row">
+                    <div class="col-md-6">
+                        <img class="title-logo" src="file:///home/sun/Downloads/DESIGN_PORTFOLIO--HTML_CSS_BOOTSTRAP-master%20(1)/DESIGN_PORTFOLIO--HTML_CSS_BOOTSTRAP-master/Project_3_-_protfolio/Project%203%20-%20protfolio/images/logo.png" alt="udacity logo">
+                    </div>
+                    <div class="col-md-6 text-right text-uppercase">
+                        <h1 class="title-super text-thin">Robin Zeng</h1>
+                        <h4>ThinkPad</h4>
+                    </div>
+                </header>
+
+            
+
+            <section class="row">
+                <div class="col-md-12">
+                    <hr class="hline">
+                </div>
+            </section>
+
+            <section class="row">
+                <div class="col-md-12">
+                    <img class="main_img img-responsive" srcset="images/screen_big.jpg 1920w, images/screen_med.jpg 1280w images/screen_sml.jpg 1x" alt="main picture" data-toggle="modal" data-target="#project1">
+                </div>
+            </section>
+
+            <section class="row">
+                <div class="col-md-12">
+                    <h2 class="text-muted">Featured Work</h2>
+                </div>
+            </section>
+
+            <section class="row text-center">
+
+                <div class="col-md-4">
+                    <img class="image-responsive sub" src="file:///home/sun/Downloads/DESIGN_PORTFOLIO--HTML_CSS_BOOTSTRAP-master%20(1)/DESIGN_PORTFOLIO--HTML_CSS_BOOTSTRAP-master/Project_3_-_protfolio/Project%203%20-%20protfolio/images/sub1.jpg" alt="sub picture1">
+                    <h3 class="text-uppercase ">Appify</h3>
+                    <p><a>https://github.com/udacity/appify</a></p>
+                </div>
+
+                <div class="col-md-4">
+                        <img class="image-responsive sub" src="file:///home/sun/Downloads/DESIGN_PORTFOLIO--HTML_CSS_BOOTSTRAP-master%20(1)/DESIGN_PORTFOLIO--HTML_CSS_BOOTSTRAP-master/Project_3_-_protfolio/Project%203%20-%20protfolio/images/sub2.jpg" alt="sub picture2">
+                        <h3 class="text-uppercase ">Sunflower</h3>
+                        <p><a>https://github.com/udacity/Sunflower</a></p>
+                </div>
+
+                <div class="col-md-4">
+                    <img class="image-responsive sub" src="file:///home/sun/Downloads/DESIGN_PORTFOLIO--HTML_CSS_BOOTSTRAP-master%20(1)/DESIGN_PORTFOLIO--HTML_CSS_BOOTSTRAP-master/Project_3_-_protfolio/Project%203%20-%20protfolio/images/sub3.jpg" alt="sub picture3">
+                    <h3 class="text-uppercase ">Boken</h3>
+                    <p><a>https://github.com/udacity/Boken</a></p>
+                </div>
+
+            </section>
+
+
+                    <!-- Modal -->
+            <footer class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title" id="myModalLabel">Best Laptop On Earth!</h4>
+                        </div>
+                        <div class="modal-body">
+                            <img class="img-responsive" src="file:///home/sun/Downloads/DESIGN_PORTFOLIO--HTML_CSS_BOOTSTRAP-master%20(1)/DESIGN_PORTFOLIO--HTML_CSS_BOOTSTRAP-master/Project_3_-_protfolio/Project%203%20-%20protfolio/images/screen_big.jpg" alt="img of the best laptop"> <!--why I can not load img when the pop up window is opened? As img will always crash on my laptop-->&gt;
+                            Best laptop human has ever made, millitary grad quality and superior keyboard that surpass all other laptops in the market, take it! Apple!
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            
+
+            
+
+        </footer>
+
+    </article>
+
+
+
+
+</body></html>
